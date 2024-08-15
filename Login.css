@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid black; */
+    display: flex;
+}
+
+#image-sec{
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 40%;
+}
+#login-img{
+    height: 100%;
+    width: 100%;
+}
+
+
+#form-sec{
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+}
+
+#form-top{
+    height: 15%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#form-sec h1{
+
+    color: rgb(2, 79, 109);
+    font-size: 1.8rem;
+    font-weight: 800;
+ 
+}
+
+#form-sec p{
+    letter-spacing: 3px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+#login-form{
+    position: relative;
+    top: -3%;
+    margin-top: 20px;
+    height: 50%;
+    width: 45%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#login-form input{
+    height: 14%;
+    width: 60%;
+    padding-left: 2%;
+    border: none;
+    border-bottom: 2px solid black;    
+    outline: none;
+    font-size: 1rem;
+}
+
+#login-form #submit{
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(28, 159, 211);
+    color: white;
+    font-size: 1.2rem;
+}
+
+#login-form #submit:hover{
+    background-color: rgb(12, 128, 174);
+}
+
+
+#signup{
+    font-size: 1.5rem;
+}
+#signup a{
+    padding: 5px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+}
